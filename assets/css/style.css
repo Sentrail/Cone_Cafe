@@ -1,0 +1,55 @@
+/* Tailwind base, components, utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom color palette */
+@layer base {
+    :root {
+        --cafe-espresso: #2D241E;
+        --cafe-latte:    #F5EBE0;
+        --cafe-toffee:   #D4A373;
+        --cafe-cream:    #FEFAE0;
+        --cafe-accent:   #CCD5AE;
+    }
+}
+
+@layer components {
+    .text-cafe-espresso { color: var(--cafe-espresso); }
+    .bg-cafe-espresso   { background-color: var(--cafe-espresso); }
+    .text-cafe-latte    { color: var(--cafe-latte); }
+    .bg-cafe-latte      { background-color: var(--cafe-latte); }
+    .text-cafe-toffee   { color: var(--cafe-toffee); }
+    .bg-cafe-toffee     { background-color: var(--cafe-toffee); }
+    .text-cafe-cream    { color: var(--cafe-cream); }
+    .bg-cafe-cream      { background-color: var(--cafe-cream); }
+    .text-cafe-accent   { color: var(--cafe-accent); }
+    .bg-cafe-accent     { background-color: var(--cafe-accent); }
+}
+
+/* Custom utilities */
+@layer utilities {
+    .hero-gradient {
+        background: linear-gradient(rgba(45, 36, 30, 0.6), rgba(45, 36, 30, 0.8)),
+                    url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .scroll-smooth {
+        scroll-behavior: smooth;
+    }
+
+    /* Custom scrollbar (used in horizontal menus if needed later) */
+    .custom-scrollbar::-webkit-scrollbar {
+        height: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #D4A373;
+        border-radius: 10px;
+    }
+}
+
+/* Font families */
+.font-sans  { font-family: 'Outfit', sans-serif; }
+.font-serif { font-family: 'Playfair Display', serif; }
