@@ -115,7 +115,7 @@
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Cafe Interior" class="rounded-3xl shadow-2xl">
+                    <img src="/images/cc_bg2.png" alt="Cafe Interior" class="rounded-3xl shadow-2xl">
                     <div class="absolute -bottom-6 -right-6 bg-cafe-espresso text-white p-8 rounded-3xl hidden lg:block">
                         <p class="font-serif text-2xl italic">"Best cold brew in VI"</p>
                         <p class="text-xs uppercase tracking-widest mt-2 opacity-60">— Local Guide</p>
@@ -261,16 +261,16 @@
             <h2 class="font-serif text-4xl mb-12">Visit for the coffee, stay for the vibes.</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="aspect-square bg-gray-800 rounded-2xl overflow-hidden group">
-                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=400&q=80" alt="Gallery" class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-80 group-hover:opacity-100">
+                    <img src="/images/cc_ex1.png" alt="Gallery" class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-80 group-hover:opacity-100">
                 </div>
                 <div class="aspect-square bg-gray-800 rounded-2xl overflow-hidden group">
-                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="Gallery" class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-80 group-hover:opacity-100">
+                    <img src="/images/cc_ex2.png" alt="Gallery" class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-80 group-hover:opacity-100">
                 </div>
                 <div class="aspect-square bg-gray-800 rounded-2xl overflow-hidden group">
-                    <img src="https://images.unsplash.com/photo-1559496417-e7f25cb247f3?auto=format&fit=crop&w=400&q=80" alt="Gallery" class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-80 group-hover:opacity-100">
+                    <img src="/images/cc_ex3.png" alt="Gallery" class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-80 group-hover:opacity-100">
                 </div>
                 <div class="aspect-square bg-gray-800 rounded-2xl overflow-hidden group">
-                    <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=400&q=80" alt="Gallery" class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-80 group-hover:opacity-100">
+                    <img src="/images/cc_ex4.png" alt="Gallery" class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-80 group-hover:opacity-100">
                 </div>
             </div>
 
