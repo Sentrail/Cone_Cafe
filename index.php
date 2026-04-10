@@ -364,6 +364,8 @@
             <p class="text-center mt-12 text-[10px] uppercase tracking-widest opacity-40">
                 © 2025 Cone Café Lagos. Crafted for the Culture.
             </p>
+            <p class="text-center mt-2 text-[10px] uppercase tracking-widest opacity-40">
+                Built by <a href="https://myportfolio-six-sepia.vercel.app/" target="_blank" class="text-cafe-toffee hover:text-cafe-latte transition">Sentry Developer Studio</a>
         </div>
     </footer>
 
